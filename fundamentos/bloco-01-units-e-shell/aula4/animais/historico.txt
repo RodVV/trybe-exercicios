@@ -1,0 +1,5 @@
+    1  sudo apt update
+    2  clear
+    3  sudo dpkg .i code_1.62.0-1635954068_amd64
+    4  sudo dpkg .i code_1.62.0-1635954068_amd64.deb
+    5  clear

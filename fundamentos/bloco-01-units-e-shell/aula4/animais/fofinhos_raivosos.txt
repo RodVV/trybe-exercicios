@@ -1,0 +1,6 @@
+tigre
+gato
+cachorro
+javali
+urso
+leao
