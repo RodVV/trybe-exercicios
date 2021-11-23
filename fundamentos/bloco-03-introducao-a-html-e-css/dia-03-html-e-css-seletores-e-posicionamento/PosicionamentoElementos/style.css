@@ -11,6 +11,8 @@
   }
   
   .baloon {
+      position: absolute;
+      left: 350px;
   
   }
   
