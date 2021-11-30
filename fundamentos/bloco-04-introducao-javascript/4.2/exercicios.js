@@ -10,3 +10,7 @@ for (let index = 0; index < numbers.length; index++) {
     sum += numbers[index];        
 }
 console.log(sum);
+
+
+// Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
+console.log(sum / numbers.length);
