@@ -4,6 +4,7 @@ const angleA = 60;
 const angleB = 60;
 const angleC = 60;
 
+// ordem importa
 
 if (angleA <= 0) {
     console.log('error');
