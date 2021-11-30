@@ -5,3 +5,11 @@ for(let number of numbers) {
 }
 
 // Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
+let sum = 0;
+
+for (let index = 0; index < numbers.length; index++) {
+    sum += numbers[index];
+    console.log(sum);
+    
+}
+
