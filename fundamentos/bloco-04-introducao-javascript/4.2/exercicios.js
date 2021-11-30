@@ -33,5 +33,7 @@ for (let index = 0; index <= maiorValor; index +=1 ) {
         maiorValor = numbers[index]
     }   
 }
-
 console.log('exercicio 5 : ' + maiorValor);
+
+// Descubra quantos valores ímpares existem no array e imprima o resultado. 
+// Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
