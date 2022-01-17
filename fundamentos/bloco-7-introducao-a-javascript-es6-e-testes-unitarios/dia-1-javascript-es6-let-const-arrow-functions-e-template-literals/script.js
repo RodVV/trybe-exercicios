@@ -22,6 +22,7 @@
   console.log(testingScope(true));
   console.log(testingScope(false));
 
+//   ------------------------------------------------------------------------------------------------------------------
 
 //   Utilize template literals para que a chamada console.log(<seu código>oddsAndEvens<seu código>); 
 //   retorne "Os números 2,3,4,7,10,13 se encontram ordenados de forma crescente!". 
@@ -32,4 +33,16 @@ oddsAndEvens.sort(function(a, b){return a-b});
 // https://www.w3schools.com/jsref/jsref_sort.asp
 
 
-console.log(`Os numeros ${oddsAndEvens} se encontram ordenados de forma crescente!`); // será necessário alterar essa linha 😉
+console.log(`Os numeros ${oddsAndEvens} se encontram ordenados de forma crescente!`); // será necessário alterar essa linha 
+
+// ----------------------------------------------------------------------------------------------------------------------------
+
+
+// Crie uma função que receba um número e retorne seu fatorial.
+// É possível resolver com uma linha usando ternary operator .
+
+// http://devfuria.com.br/logica-de-programacao/recursividade-fatorial/
+const factorial = (n) => n === 0 ? 1 : n * factorial(n-1)
+console.log(factorial(6));
+console.log(factorial(0));
+console.log(factorial(1));
